@@ -6,7 +6,11 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.3'
-
+        //DI
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.4'
+        //lamda
+        classpath 'me.tatarka:gradle-retrolambda:3.2.5'
+        classpath 'com.jakewharton.hugo:hugo-plugin:1.2.1'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
