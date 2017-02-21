@@ -1,0 +1,8 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
+//java中配置java编译，否则不支持Annotation
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
